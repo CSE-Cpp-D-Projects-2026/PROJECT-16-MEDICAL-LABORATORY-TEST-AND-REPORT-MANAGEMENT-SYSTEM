@@ -129,20 +129,25 @@ class Test
 int main()
 {
     patient p;
-    cout << "\n========== Saved Patient Details ==========\n";
+
+    cout << "\n------------- Saved Patient Details ---------------\n";
+
     p.view_patient();
-    cout << "\n========== Enter New Patient Details ==========\n";
+
+    cout << "\n----------- Enter New Patient Details ------------\n";
+
     p.display();
     p.patient_details();
     cout<<"\n---------------------------------------------------";
     Test t;
-    cout<<"\n========== Saved Test Details ==========\n";
+    cout<<"\n------------- Saved Test Details ----------------\n";
     t.view_test();
-    cout<<"\n===================================================";
-    cout<<"\n========== Enter New Test Details ==========\n";
+    cout<<"\n------------------------------------------------";
+    cout<<"\n----------- Enter New Test Details ------------\n";
     t.display();
     t.test_details();
-    cout<<"\n===================================================";
-    cout<<"\n------------------- Thank you -------------------\n";
+    cout<<"\n------------------------------------------------";
+    cout<<"\n----------- Saved Patient Details -----------\n";
+    cout<<"\n-------------------thank you-------------------\n";
     return 0;
 }
